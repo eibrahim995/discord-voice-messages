@@ -33,6 +33,8 @@ const startRecord = () => {
         const stopRecording = () => {
             setStatus(false, stopRecording);
             mediaRecorder.stop();
+            stream.getTracks()
+                .forEach( track => track.stop() );
         }
         micBtn.addEventListener("click", stopRecording);
         setStatus(true, startRecord);

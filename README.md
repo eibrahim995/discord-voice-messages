@@ -1,5 +1,22 @@
-# Discord Voice Messages
+
+
+<h1 align="center">Welcome to Discord Voice Messages 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
+  <a href="https://creativecommons.org/share-your-work/public-domain/" target="_blank">
+    <img alt="License: Public domain" src="https://img.shields.io/badge/License-Public domain-yellow.svg" />
+  </a>
+</p>
+
+> The Discord Voice Messages extensions adds the ability for google chrome users to send voice messages directly from the browser,
+
+### ✨ [Extension on Google Chrome Store](https://chrome.google.com/webstore/detail/discord-voice-messages/emfegmjcadbmdcmdecepfkmhnenpnfip)
+
+
 ## Installation
+
+[Directly from Google Chrome Web Store](https://chrome.google.com/webstore/detail/discord-voice-messages/emfegmjcadbmdcmdecepfkmhnenpnfip)
+### OR:
 - Download this repo.
 - Go to [chrome://extensions/](chrome://extensions/)
 - On the top right enable developer mode.
@@ -11,3 +28,24 @@
 - Click the icon to record, (the icon should turn green), click the icon again to stop recording.
 - The record will be added as an attachment in your discord message.
 
+## Author
+
+👤 **Ibrahim E.Gad**
+
+* Website: http://ibrahimgad.com
+* Github: [@eibrahim995](https://github.com/eibrahim995)
+* LinkedIn: [@eibrahim95](https://linkedin.com/in/eibrahim95)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/eibrahim995/discord-voice-messages/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [Ibrahim E.Gad](https://github.com/eibrahim995). This project is [Public domain](https://creativecommons.org/share-your-work/public-domain/) licensed.
+
+***
