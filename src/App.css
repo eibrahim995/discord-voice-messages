@@ -1,0 +1,29 @@
+.Mic-Container {
+  height: 100%
+}
+.Miv-Btn {
+  height: 100%;
+  width: 20px;
+  z-index: 999;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  padding-right: 10px;
+  display: inline-block;
+  user-select: none;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.Mic-Icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 25px;
+}
+.Mic-Icon-Active {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  animation: beat .25s infinite alternate;
+}
+@keyframes beat{
+  to { transform: scale(1.3); }
+}

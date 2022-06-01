@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "icons": {
+    "16": "/static/media/discord-icon-16.png",
+    "32": "/static/media/discord-icon-32.png",
+    "48": "/static/media/discord-icon-48.png",
+    "64": "/static/media/discord-icon-64.png",
+    "128": "/static/media/discord-icon-128.png"
+  },
+  "default_locale": "en",
+  "permissions": [],
+  "host_permissions" : ["http://*.discord.com/*", "https://*.discord.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*.discord.com/*", "https://*.discord.com/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources" : [
+    {
+      "resources": [],
+      "matches": [ "*://*/*" ]
+    }
+  ]
+}

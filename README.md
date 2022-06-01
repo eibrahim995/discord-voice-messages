@@ -2,7 +2,7 @@
 
 <h1 align="center">Welcome to Discord Voice Messages 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://creativecommons.org/share-your-work/public-domain/" target="_blank">
     <img alt="License: Public domain" src="https://img.shields.io/badge/License-Public domain-yellow.svg" />
   </a>
@@ -18,10 +18,11 @@
 [Directly from Google Chrome Web Store](https://chrome.google.com/webstore/detail/discord-voice-messages/emfegmjcadbmdcmdecepfkmhnenpnfip)
 ### OR:
 - Download this repo.
+- Run `npm install` and then `npm run build`
 - Go to [chrome://extensions/](chrome://extensions/)
 - On the top right enable developer mode.
 - On the top left click Load Unpacked.
-- Choose the downloaded repo directory.
+- Choose the `build` directory.
 
 ## Usage
 - After installing, the next time you visit discord , you'll notice a new mic icon in the right of the message input.
