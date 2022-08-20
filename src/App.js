@@ -1,5 +1,5 @@
-import mic from './media/microphone-svgrepo-com.svg';
-import './App.css';
+import mic from "./media/microphone-svgrepo-com.svg";
+import "./App.css";
 import {useState} from "react";
 import audioEncoder from "audio-encoder"
 
@@ -14,7 +14,7 @@ const App = () => {
   const [stopRecording, setStopRecording] = useState(() => () => {})
 
   const  download = (blob) => {
-    const time = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '').replace(/ /, '_');
+    const time = new Date().toISOString().replace(/T/, " ").replace(/\..+/, "").replace(/ /, "_");
     let file = new File([blob], `Record_${time}.wav`,{type:"audio/wav", lastModified:new Date().getTime()});
     let upload_input = document.getElementsByClassName("file-input")[0];
     let container = new DataTransfer();
@@ -77,7 +77,7 @@ const App = () => {
   return (
     <div className="Mic-Container">
       <span className="Miv-Btn" onClick={toggleRecording}>
-        <img className={'Mic-Icon' + (isRecording ? ' Mic-Icon-Active' : '')} src={getMedia(mic)}/>
+        <img className={"Mic-Icon" + (isRecording ? " Mic-Icon-Active" : "")} src={getMedia(mic)}/>
       </span>
     </div>
   );

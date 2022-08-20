@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import App from './App';
+import App from "./App";
 
 const startReact = () => {
-  const dicordChatButtonsContainer = document.getElementsByClassName("expression-picker-chat-input-button")[0].parentElement
+  const discordChatButtonsContainer = document.getElementsByClassName("expression-picker-chat-input-button")[0].parentElement
   const voiceMessagesContainer = document.getElementById("discord-voice-messages-extension") || document.createElement("div")
   voiceMessagesContainer.setAttribute("id", "discord-voice-messages-extension")
   voiceMessagesContainer.classList.add("expression-picker-chat-input-button")
-  dicordChatButtonsContainer.append(voiceMessagesContainer);
+  discordChatButtonsContainer.append(voiceMessagesContainer);
   const root = ReactDOM.createRoot(voiceMessagesContainer);
   root.render(
       <React.StrictMode>
@@ -28,7 +28,7 @@ const domChangesHandler = () => {
   let oldHref = document.location.href;
   let bodyList = document.querySelector("body")
   let observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
+    mutations.forEach(function() {
       if (oldHref !== document.location.href) {
         oldHref = document.location.href;
         documentLoadedListener();
