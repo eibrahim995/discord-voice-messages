@@ -5,7 +5,8 @@ import App from './App';
 
 const startReact = () => {
   const dicordChatButtonsContainer = document.getElementsByClassName("expression-picker-chat-input-button")[0].parentElement
-  const voiceMessagesContainer = document.createElement("div")
+  const voiceMessagesContainer = document.getElementById("discord-voice-messages-extension") || document.createElement("div")
+  voiceMessagesContainer.setAttribute("id", "discord-voice-messages-extension")
   voiceMessagesContainer.classList.add("expression-picker-chat-input-button")
   dicordChatButtonsContainer.append(voiceMessagesContainer);
   const root = ReactDOM.createRoot(voiceMessagesContainer);
